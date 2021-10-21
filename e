@@ -70,4 +70,25 @@ class Main
   }
 }  
 }
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Hello, Dcoder!");
+    Scanner sc=new Scanner("Gautam");
+    while(sc.hasNext())
+    {
+     // sc.next();
+   //  sc.next();
+      System.out.println(sc.next());
+    }
+   // System.out.println(sc.next());
+    
+   }
+ }
+
 
